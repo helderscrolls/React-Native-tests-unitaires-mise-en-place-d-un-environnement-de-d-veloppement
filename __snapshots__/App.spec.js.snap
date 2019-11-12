@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders View 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text>
+    Articles
+  </Text>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#4ba37b",
+        "borderRadius": 50,
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "height": 30,
+        "justifyContent": "center",
+        "lineHeight": 30,
+        "marginTop": 50,
+        "opacity": 1,
+        "width": 150,
+      }
+    }
+  >
+    <Text>
+      Ajouter un article
+    </Text>
+  </View>
+</View>
+`;
